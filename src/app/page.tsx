@@ -26,9 +26,9 @@ export default function Home() {
           }
         >
           <img
-            src="/sepatu-treadix3.png"
-            alt="Aero-Weave Detailed Fabric Texture"
-            className="mx-auto rounded-xl object-cover h-full w-full object-center shadow-2xl"
+            src="/Pitch Deck.png"
+            alt="Treadix Pitch Deck"
+            className="mx-auto rounded-xl object-contain h-full w-full object-center shadow-2xl"
             draggable={false}
           />
         </ContainerScroll>

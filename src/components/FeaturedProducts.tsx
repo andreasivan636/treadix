@@ -6,34 +6,34 @@ import FadeIn from './FadeIn';
 const products = [
   {
     id: 1,
-    name: 'AERO X1 Pro',
+    name: 'Adizero EVO SL',
     category: "Men's Running",
-    price: '$190',
-    image: 'https://images.unsplash.com/photo-1608231387042-66d1773070a5?q=80&w=1974&auto=format&fit=crop',
+    price: 'Rp.2.500.000,00',
+    image: 'sepatu-treadix4.png',
     span: 'md:col-span-2 md:row-span-2'
   },
   {
     id: 2,
-    name: 'FLEX WEAVE',
-    category: "Women's Training",
-    price: '$140',
-    image: 'https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?q=80&w=1974&auto=format&fit=crop',
+    name: 'Kobe 9 Elite Low Protro',
+    category: "Neo Turquoise and Volt",
+    price: 'Rp 3.269.000,00',
+    image: 'sepatu-treadix2.png',
     span: 'md:col-span-1 md:row-span-1'
   },
   {
     id: 3,
-    name: 'VORTEX LITE',
-    category: 'Unisex Lifestyle',
-    price: '$120',
-    image: 'https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?q=80&w=1925&auto=format&fit=crop',
+    name: 'Elite Fold-Over Tongue Firm Ground',
+    category: 'Sepatu Bola Predator',
+    price: 'Rp.2.580.000,00',
+    image: 'sepatu-treadix6.png',
     span: 'md:col-span-1 md:row-span-1'
   },
   {
     id: 4,
-    name: 'QUANTUM BOOST',
-    category: "Men's Basketball",
-    price: '$210',
-    image: 'https://images.unsplash.com/photo-1552346154-21d32810baa3?q=80&w=2070&auto=format&fit=crop',
+    name: 'Jersey Real Madrid',
+    category: "Men's Jersey",
+    price: 'Rp.2.000.000,00',
+    image: 'sepatu-treadix5.png',
     span: 'md:col-span-2 md:row-span-1'
   }
 ];
@@ -72,7 +72,7 @@ export default function FeaturedProducts() {
                 alt={product.name}
                 className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-700 ease-out"
               />
-              
+
               {/* Overlay Content */}
               <div className="absolute inset-0 p-6 flex flex-col justify-end z-20">
                 <div className="translate-y-4 group-hover:translate-y-0 transition-transform duration-500 ease-out">
