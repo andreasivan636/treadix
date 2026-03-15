@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+@theme {
+  --color-background: #0a0a0a;
+  --color-foreground: #fafafa;
+  --color-treadix-black: #0a0a0a;
+  --color-treadix-white: #fafafa;
+  --color-treadix-gray: #27272a; /* subtle gray for borders */
+  --color-treadix-accent: #CEFF00; /* Volt Green */
+  --color-treadix-orange: #FF4500; /* Neon Orange */
+
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@layer base {
+  body {
+    background-color: var(--color-background);
+    color: var(--color-foreground);
+    @apply antialiased overflow-x-hidden;
+  }
+}
