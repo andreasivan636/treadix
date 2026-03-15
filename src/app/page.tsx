@@ -12,21 +12,21 @@ export default function Home() {
       <Hero />
       
       {/* Container Scroll Animation */}
-      <div className="flex flex-col overflow-hidden bg-treadix-black pt-20 -mb-20">
+      <div className="flex flex-col overflow-hidden bg-treadix-white pt-20 -mb-20">
         <ContainerScroll
           titleComponent={
             <>
-              <h1 className="text-lg md:text-xl font-bold tracking-widest text-treadix-accent uppercase">
+              <h1 className="text-lg md:text-xl font-bold tracking-widest text-treadix-black uppercase">
                 ENGINEERED FOR EXCELLENCE
               </h1>
-              <span className="text-5xl md:text-[6rem] font-bold mt-4 leading-none tracking-tighter text-treadix-white uppercase block">
+              <span className="text-5xl md:text-[6rem] font-bold mt-4 leading-none tracking-tighter text-treadix-black uppercase block">
                 Aero-Weave<br />Technology
               </span>
             </>
           }
         >
           <img
-            src="https://images.unsplash.com/photo-1608231387042-66d1773070a5?q=80&w=3840&auto=format&fit=crop"
+            src="/sepatu-treadix3.png"
             alt="Aero-Weave Detailed Fabric Texture"
             className="mx-auto rounded-xl object-cover h-full w-full object-center shadow-2xl"
             draggable={false}
